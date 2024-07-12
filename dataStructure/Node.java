@@ -1,17 +1,16 @@
-package Sort;
+package dataStructure;
 
 
 public class Node<T>
 {
-    T value;
-    Node<T> next; 
+    public T value;
+    public Node<T> next; 
     public Node(T value)
     {
         this.value = value;
         this.next = null;
     }
 }
-
 class Queue<T>
 {
     public int length;
