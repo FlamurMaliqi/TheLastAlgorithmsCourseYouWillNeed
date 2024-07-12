@@ -1,4 +1,4 @@
-package BubbleSort;
+package Sort;
 
 class bubbleSort {
     public static int[] sort(int[] numbers) {
